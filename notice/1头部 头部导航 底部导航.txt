@@ -1,0 +1,13 @@
+1 src/components/下创建 Home.vue Header.vue Footer.vue
+Header.vue 使用import { Tabbar, TabbarItem } from 'vux';
+显示标题 和搜索图标
+
+Home.vue
+import { Tab, TabItem } from 'vux';
+import AppHeader from './Header';
+import AppFooter from './Footer';
+以实现效果:点击顶部菜单,对应样式切换vux TabItem模块效果
+
+Footer.vue 使用import { Tabbar, TabbarItem } from 'vux';
+以实现效果:点击顶部菜单,对应样式切换vux tabber-item模块效果 并且是图标上文字下混排 slot="icon"
+
